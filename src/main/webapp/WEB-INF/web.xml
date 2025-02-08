@@ -1,0 +1,10 @@
+<web-app xmlns="http://jakarta.ee/xml/ns/jakartaee" version="5.0">
+    <servlet>
+        <servlet-name>SubmitFormServlet</servlet-name>
+        <servlet-class>com.example.servlet.SubmitFormServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SubmitFormServlet</servlet-name>
+        <url-pattern>/SubmitFormServlet</url-pattern>
+    </servlet-mapping>
+</web-app>
